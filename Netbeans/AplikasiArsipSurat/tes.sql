@@ -1,0 +1,1 @@
+SELECT * FROM tbl_user.ID_USER, tbl_user.ID_LEVEL, tbl_user.NAMA_USER, tbl_user.JK, tbl_user.USERNAME

@@ -5,6 +5,9 @@
  */
 package com.stripbandunk.swing.jframe;
 
+import java.awt.Image;
+import javax.swing.ImageIcon;
+
 /**
  *
  * @author dimas
@@ -16,6 +19,10 @@ public class FormUtamaBlank extends javax.swing.JFrame {
      */
     public FormUtamaBlank() {
         initComponents();
+        
+        ImageIcon icon = new ImageIcon(FormApp.class.getResource("/com/stripbandunk/swing/jframe/logo.png"));
+        Image image = icon.getImage();
+        setIconImage(image);
     }
 
     /**

@@ -3,10 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.stripbandunk.swing.documentimport Day1.com.stripbandunk.swing.caret.FormUtama;
-;
 
-import com.stripbandunk.swing.caret.*;
 import Blank.*;
 import javax.swing.event.CaretEvent;
 import javax.swing.event.CaretListener;
